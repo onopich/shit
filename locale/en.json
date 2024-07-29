@@ -1,5 +1,49 @@
 {
-  "Loader": {
+  "COMMON": {
+    "BUY": "Buy",
+    "USE": "Use",
+    "NEXT": "Next",
+    "BACK": "Back",
+    "SKIP": "Skip",
+    "DAY": "Day"
+  },
+  "NAVBAR": {
+    "FRIENDS": "Friends",
+    "TASKS": "Tasks",
+    "CITY": "Your City",
+    "RATING": "Rating",
+    "TREASURY": "Treasury"
+  },
+  "DASHBOARD": {
+    "LABEL.HOLDER.POWER": "Holder Power",
+    "LABEL.BUDGET": "City Budget",
+    "LABEL.HOURLY.INCOME": "Income per hour",
+    "LABEL.CITY.POPULATION": "City population",
+    "LABEL.PROFIT.PER.TAP": "Profit per tap",
+    "BUTTON.AIRDROP": "Airdrop"
+  },
+  "LOCK": {
+    "TITLE": "Play from your <br /> smartphone"
+  },
+  "AIRDROP.MAIN.SCREEN": {
+    "SCREEN": {
+      "TITLE": "Get ready, Holder! AirDrop is coming soon!"
+    },
+    "SCREEN.DESCRIPTION": "The preparation for the AirDrop launch is in full swing. Follow the statuses and updates to stay informed",
+    "TASK.EXCHANGES": "Negotiations with exchanges",
+    "TASK.MARKET.MAKERS": "Negotiations with market makers",
+    "TASK.AIRDROP.TASKS.LIST": "AirDrop Tasks List"
+  },
+  "AIRDROP.DROP.TASKS.SCREEN": {
+    "SCREEN": {
+      "TITLE": "AirDrop Tasks"
+    },
+    "SCREEN.DESCRIPTION": "Complete the tasks below to participate in the $CITY token AirDrop",
+    "TASK.LIST": {
+      "TITLE": "Task List"
+    }
+  },
+  "LOADER": {
     "LOADER.POPULATE.HOUSES": "Settling residents into houses…",
     "LOADER.PREPARE.LANDSCAPES": "Preparing beautiful landscapes…",
     "LOADER.POLISH.COINS": "Polishing the coins to a shine…"
@@ -50,7 +94,6 @@
       "DESC": "Invite friends to CITY Holder and you both will receive a bonus for their registration. The more friends, the more rewards."
     },
     "FRIENDS.INVITED": "Invited",
-    "FRIENDS.INVITED.NAME": "Slava S. ⭐️",
     "BUTTON.BACK": "Back",
     "BUTTON.NEXT": "Next"
   },
@@ -88,10 +131,11 @@
     "INPUT.PLACEHOLDER": "Enter city name",
     "BUTTON.CREATE.CITY": "Create city",
     "INSTRUCTION": {
-      "TITLE": "Come up with a name for your city"
+      "TITLE": "Come up with a name for",
+      "CITY": "your city"
     },
     "CHARACTER.DIALOGUE": "All teams are ready to work!",
-    "ERROR.NAME.TOO.SHORT": "City name must contain more than three letters and no special characters",
+    "ERROR.NAME.TOO.SHORT": "City name must contain 3 to 20 letters and must not contain special characters or numbers",
     "ERROR.NAME.EMPTY": "City name cannot be empty",
     "ERROR.NAME.INVALID.CHARACTERS": "City name can only contain letters and numbers"
   },
@@ -115,9 +159,10 @@
   },
   "CITY.LEVEL.UP.PAGE": {
     "SCREEN": {
-      "TITLE": "Congratulations! Your city has reached {{level_2}}"
+      "TITLE": "Congratulations!",
+      "TITLE.2": "Your city has reached {{level}}"
     },
-    "SUBTITLE": "Your league is promoted: {{league_name_eng}}",
+    "SUBTITLE": "Your league is promoted:",
     "REWARD": {
       "TITLE": "You also receive a reward"
     },
@@ -128,9 +173,6 @@
       "TITLE": "Holder power increased"
     },
     "SUBTITLE": "You have received a new title and a new avatar. Your click power has increased. Keep it up, Holder!",
-    "NEW": {
-      "TITLE": "{{holder_title_eng}}"
-    },
     "TAP.POWER": {
       "TITLE": "Tap power",
       "DESC": "Number of coins received per click"
@@ -149,69 +191,30 @@
       "TITLE": "Daily bonuses"
     },
     "SUBTITLE": "Don't miss your chance to collect coins every day! Collect rewards daily to keep the reward counter going",
-    "DAY.1": "Day 1",
-    "DAY.2": "Day 2",
-    "DAY.3": "Day 3",
-    "DAY.4": "Day 4",
-    "DAY.5": "Day 5",
-    "DAY.6": "Day 6",
-    "DAY.7": "Day 7",
-    "DAY.8": "Day 8",
-    "DAY.9": "Day 9",
-    "DAY.10": "Day 10",
-    "DAY.11": "Day 11",
-    "DAY.12": "Day 12",
-    "BUTTON.COLLECT": "Collect"
+    "BUTTON.COLLECT": "Collect",
+    "REWARD.RECEIVED": "Reward received!"
   },
   "TREASURY": {
-    "LABEL.HOLDERS": {
-      "TITLE": "{{holder_title_eng}}"
-    },
-    "LABEL.HOLDER.POWER": "Holder's Power",
-    "BUTTON.AIRDROP": "AirDrop",
-    "LABEL.PROFIT.PER.TAP": "Earnings per tap",
-    "LABEL.INCOME.PER.HOUR": "Income per hour",
-    "LABEL.CITY.POPULATION": "City population",
     "LABEL.EARNED.COINS": "Coins earned",
-    "LABEL.TURBO.CLICK": "Turbo click",
-    "TAB.FRIENDS": "Friends",
-    "TAB.TASKS": "Tasks",
-    "TAB.YOUR.CITY": "Your city",
-    "TAB.RATING": "Rating",
-    "TAB.TREASURY": "Treasury"
+    "LABEL.TURBO.CLICK": "Turbo click"
   },
   "CITY": {
-    "SCREEN": {
-      "TITLE": "Main Screen"
-    },
-    "LABEL.HOLDERS": {
-      "TITLE": "{{holder_title_eng}}"
-    },
-    "LABEL.HOLDER.POWER": "Holder's Power {{N}}/10",
     "LABEL.BUDGET": "City Budget",
-    "LABEL.HOURLY.INCOME": "Income per hour",
-    "LABEL.CITY.POPULATION": "City Population",
-    "LABEL.LEVEL": "Level {{N}}/10",
+    "LABEL.LEVEL": "Level",
     "LABEL.NEXT.LEVEL": "Next Level",
-    "BUTTON.AIRDROP": "AirDrop",
-    "BUTTON.OBJECT.CONSTRUCTION": "Construction",
-    "TAB.FRIENDS": "Friends",
-    "TAB.TASKS": "Tasks",
-    "TAB.YOUR.CITY": "Your City",
-    "TAB.RATING": "Rating",
-    "TAB.TREASURY": "Treasury"
+    "BUTTON.OBJECT.CONSTRUCTION": "Construction"
   },
   "FRIENDS.SCREEN": {
     "SCREEN": {
       "TITLE": "Referral income"
     },
-    "LABEL.HOLDER.POWER": "Holder's Power {{N}}/10",
-    "BUTTON.AIRDROP": "AirDrop",
+    "LABEL.HOLDER.POWER": "Holder's Power",
     "FRIENDS.DESCRIPTION": "Invite friends to CITY Holder and receive rewards for their registration and progress in the game",
     "BUTTON.INVITE.TELEGRAM": "Friends from Telegram",
     "BUTTON.INVITE.TELEGRAM.PREMIUM": "Friends with Telegram Premium",
     "REFERRAL.LINK": {
-      "TITLE": "Your referral link"
+      "TITLE": "Your referral link",
+      "COPIED": "Link copied"
     },
     "BUTTON.INVITE.FRIENDS": "Invite friends",
     "SCREEN.DESCRIPTION": "Here you can see how much income your friends and their friends bring you",
@@ -222,7 +225,7 @@
     "LABEL.COLLECTABLE.INCOME": "Can collect",
     "BUTTON.COLLECT.INCOME": "Collect income",
     "LABEL.FRIENDS.LIST": "Friend list",
-    "LABEL.FRIENDS.COUNT": "{{N}} friends"
+    "LABEL.FRIENDS.COUNT": "N friends"
   },
   "REFERRAL.INCOME.SCREEN": {
     "SCREEN": {
@@ -243,16 +246,7 @@
     },
     "COLUMN.CITY.LEVEL": "City level",
     "COLUMN.BONUS": "Bonus when leveling up",
-    "COLUMN.PREMIUM.BONUS": "If the friend has Premium",
-    "ROW.LEVEL.2": "Level 2",
-    "ROW.LEVEL.3": "Level 3",
-    "ROW.LEVEL.4": "Level 4",
-    "ROW.LEVEL.5": "Level 5",
-    "ROW.LEVEL.6": "Level 6",
-    "ROW.LEVEL.7": "Level 7",
-    "ROW.LEVEL.8": "Level 8",
-    "ROW.LEVEL.9": "Level 9",
-    "ROW.LEVEL.10": "Level 10"
+    "COLUMN.PREMIUM.BONUS": "If the friend has Premium"
   },
   "MAIN.TASKS.SCREEN": {
     "SCREEN": {
@@ -269,10 +263,8 @@
     "TASK.3.PROGRESS": "Invited friends"
   },
   "EASY.TASKS.SCREEN": {
-    "SCREEN": {
-      "TITLE": "{{mission_id}} : {{description_eng}}"
-    },
     "BUTTON.SUBSCRIBE": "Subscribe",
+    "BUTTON.FOLLOW": "Follow",
     "BUTTON.WATCH": "Watch video",
     "BUTTON.INVITE": "Invite friends",
     "BUTTON.CHECK.COMPLETION": "Check completion"
@@ -282,21 +274,7 @@
       "TITLE": "Daily bonuses"
     },
     "SCREEN.DESCRIPTION": "Don't miss daily bonuses! Collect them every day to keep progress and increase your bonus size",
-    "DAY.1": "Day 1",
-    "DAY.COLLECTED": "Collected",
-    "DAY.2": "Day 2",
-    "DAY.3": "Day 3",
-    "DAY.4": "Day 4",
-    "DAY.5": "Day 5",
-    "DAY.6": "Day 6",
-    "DAY.7": "Day 7",
-    "DAY.8": "Day 8",
-    "DAY.9": "Day 9",
-    "DAY.10": "Day 10",
-    "DAY.11": "Day 11",
-    "DAY.12": "Day 12",
-    "DAY.13": "Day 13",
-    "DAY.14": "Day 14"
+    "DAY.COLLECTED": "Collected"
   },
   "CONSTRUCTION.FILTERS.SCREEN": {
     "LABEL.SHOW": "Show",
@@ -305,89 +283,70 @@
     "FILTER.MISSED": "Missed",
     "FILTER.NEW": "New",
     "FILTER.BUILT": "Built",
-    "FILTER.UNAVAILABLE": "Unavailable"
+    "FILTER.UPGRADED": "Upgraded",
+    "FILTER.UNAVAILABLE": "Unavailable",
+    "NOTFOUND.TITLE": "No matches",
+    "NOTFOUND.DESCRIPTION": "There are no buildings matching the selected filters in this category"
   },
   "CONSTRUCTION.TYPES.SCREEN": {
     "LABEL.CITY.BUDGET": "City Budget",
-    "LABEL.SHOW": "Show",
-    "FILTER.ALL": "All",
-    "SECTION": {
-      "TITLE": "Special buildings"
-    },
-    "SECTION.DESCRIPTION": "Special buildings that make your city stand out and actively attract tourists and new residents",
-    "BUILDING.1.BUILD.BUTTON": "Build",
-    "BUILDING.2.UPGRADE.BUTTON": "Improve",
-    "BUILDING.1.REQUIREMENT": "To build",
-    "BUILDING.2.FULLY.UPGRADED": "Fully improved",
+    "BUILDING.BUILD.BUTTON": "Build",
+    "BUILDING.UPGRADE.BUTTON": "Improve",
+    "BUILDING.REQUIREMENT": "To build",
+    "BUILDING.FULLY.UPGRADED": "Fully improved",
+    "BUILDING.SPECIAL.FULLY.UPGRADED": "You own this building",
+    "FULLY.UPGRADED": "Fully upgraded",
     "UNLOCK.REQUIREMENTS": {
       "TITLE": "Section unlock conditions"
     }
   },
   "CONSTRUCTION.BUILD.SCREEN": {
-    "SECTION": {
-      "TITLE": "{{object_type}}"
-    },
-    "BUILDING": {
-      "TITLE": "{{object_name_eng}}"
-    },
-    "BUILDING.DESCRIPTION": "{{object_description_eng}}",
     "POPULATION.LABEL": "Population",
     "INCOME.LABEL": "Income per hour",
     "BUTTON.BUILD": "Build"
   },
   "CONSTRUCTION.UPGRADE.SCREEN": {
-    "SECTION": {
-      "TITLE": "{{object_type}}"
-    },
-    "BUILDING": {
-      "TITLE": "{{object_name_eng}}"
-    },
-    "BUILDING.DESCRIPTION": "{{object_description_eng}}",
-    "POPULATION.LABEL": "Population",
-    "INCOME.LABEL": "Income per hour",
-    "CURRENT.POPULATION": "Population",
-    "CURRENT.INCOME": "Income per hour",
-    "NEXT.LEVEL": "Next level",
-    "NEXT.LEVEL.INCOME": "Income per hour",
-    "NEXT.LEVEL.POPULATION": "Population",
-    "BUTTON.UPGRADE": "Improve"
+    "NEXT.LEVEL": "Next level"
   },
   "CONSTRUCTION.UNAVAILABLE.SCREEN": {
-    "SECTION": {
-      "TITLE": "{{object_type}}"
-    },
-    "BUILDING": {
-      "TITLE": "{{object_name_eng}}"
-    },
-    "BUILDING.DESCRIPTION": "{{object_description_eng}}",
-    "CURRENT.POPULATION": "Population",
-    "CURRENT.INCOME": "Income per hour",
     "UNLOCK.CONDITIONS": {
       "TITLE": "Unlock conditions"
     },
-    "INVITED.FRIENDS.LABEL": "Invited friends",
-    "REMAINING.CONDITIONS": "To unlock the building, the following conditions must be met: 3 out of 3"
+    "REMAINING.CONDITIONS": "To unlock the building, the following conditions must be met"
   },
   "BOOSTERS.STATUS.SCREEN": {
     "SECTION": {
       "TITLE": "Boosters"
     },
     "SECTION.DESCRIPTION": "Complete tasks to earn more coins and unlock new features in the game",
-    "BOOSTER.BUTTON.FREE": "Free",
-    "BOOSTER.ACTIVE": "Active: {{timer}}"
+    "BOOSTER.INSTANT.REFILL": {
+      "TITLE": "Instant Refill",
+      "DESC": "Instantly refills energy. Can be used 3 times a day"
+    },
+    "BOOSTER.INSTANT.REFILL.FREE": "Free",
+    "BOOSTER.TURBO.CLICK": {
+      "TITLE": "Turbo Click",
+      "DESC": "Each click in the treasury is doubled for 60 seconds. Up to 3 uses per day"
+    },
+    "BOOSTER.TURBO.CLICK.FREE": "Free",
+    "BOOSTER.ACTIVE": "Active"
   },
   "BOOSTERS.PURCHASE.SCREEN": {
     "SECTION": {
       "TITLE": "Upgrades"
     },
-    "BUTTON.BUY": "Buy",
-    "BUTTON.UPGRADE": "Upgrade",
-    "COMING.SOON": "Coming soon"
+    "ENERGY.CAP": "Energy Capacity",
+    "ENERGY.CAP.DESCRIPTION": "Permanently increases the maximum energy capacity",
+    "BUY.ENERGY": "Buy",
+    "RECOVERY.MINUTES": "min",
+    "RECOVERY.RATE": "Recovery Rate",
+    "RECOVERY.RATE.DESCRIPTION": "Permanently increases the treasury recovery rate",
+    "UPGRADE": "Upgrade",
+    "TAP.BOT": "Tap Bot",
+    "TAP.BOT.DESCRIPTION": "Automatic assistant that collects taxes in your absence",
+    "COMING.SOON": "Coming Soon"
   },
   "RANKING.MAIN.SCREEN": {
-    "SECTION": {
-      "TITLE": "{{league_name_eng}}"
-    },
     "PARTICIPANTS.RATING": "Participant Rating"
   },
   "RANKING.POPUP.SCREEN": {
@@ -458,5 +417,27 @@
     },
     "ABOUT.CITY.DESCRIPTION": "In CITY Holder, you participate in creating a simulation of the perfect city. Build and upgrade buildings, providing residents with everything they need.Erect residential houses, entertainment, and industrial complexes. Manage resources efficiently, develop the economy, and attract new residents.Your task is to make the most successful simulation of the city of the future and attract as many residents as possible.",
     "GOT.IT.BUTTON": "Got it!"
+  },
+  "CATEGORIES": {
+    "RESIDENT": {
+      "TITLE": "Residential buildings",
+      "DESCRIPTION": "Buildings that form the way of life of the population. Attract more residents to the city"
+    },
+    "COMMERCIAL": {
+      "TITLE": "Commercial buildings",
+      "DESCRIPTION": "Buildings that create living comfort for the residents of your city"
+    },
+    "INDUSTRIAL": {
+      "TITLE": "Industrial buildings",
+      "DESCRIPTION": "The engines of your city's economy. Provide jobs and stimulate economic growth"
+    },
+    "CITY": {
+      "TITLE": "City buildings",
+      "DESCRIPTION": "Infrastructure and public buildings. Improve the quality of life in your city"
+    },
+    "SPECIAL": {
+      "TITLE": "Special buildings",
+      "DESCRIPTION": "Special buildings that set your city apart from the rest and actively attract tourists and new residents"
+    }
   }
 }

@@ -1,5 +1,51 @@
 {
-  "Loader": {
+  "COMMON": {
+    "BUY": "Купить",
+    "USE": "Использовать",
+    "NEXT": "Далее",
+    "BACK": "Назад",
+    "SKIP": "Пропустить",
+    "DAY": "День"
+  },
+  "NAVBAR": {
+    "FRIENDS": "Друзья",
+    "TASKS": "Задания",
+    "CITY": "Ваш город",
+    "RATING": "Рейтинг",
+    "TREASURY": "Казна"
+  },
+  "DASHBOARD": {
+    "LABEL.HOLDER.POWER": "Сила Холдера",
+    "LABEL.BUDGET": "Бюджет города",
+    "LABEL.HOURLY.INCOME": "Доход в час",
+    "LABEL.CITY.POPULATION": "Население города",
+    "LABEL.PROFIT.PER.TAP": "Прибыль за тап",
+    "LABEL.LEVEL": "Уровень",
+    "LABEL.NEXT.LEVEL": "След. уровень",
+    "BUTTON.AIRDROP": "Airdrop"
+  },
+  "LOCK": {
+    "TITLE": "Играйте <br/> со смартфона"
+  },
+  "AIRDROP.MAIN.SCREEN": {
+    "SCREEN": {
+      "TITLE": "Приготовьтесь, Холдер! AirDrop уже скоро!"
+    },
+    "SCREEN.DESCRIPTION": "Подготовка к запуску AirDrop идет полным ходом. Следите за статусами и обновлениями, чтобы оставаться в курсе",
+    "TASK.EXCHANGES": "Переговоры с биржами",
+    "TASK.MARKET.MAKERS": "Переговоры с маркет-мейкерами",
+    "TASK.AIRDROP.TASKS.LIST": "Список задач AirDrop"
+  },
+  "AIRDROP.DROP.TASKS.SCREEN": {
+    "SCREEN": {
+      "TITLE": "AirDrop Tasks"
+    },
+    "SCREEN.DESCRIPTION": "Выполните задания ниже, чтобы принять участие в AirDrop токена $CITY",
+    "TASK.LIST": {
+      "TITLE": "Список заданий"
+    }
+  },
+  "LOADER": {
     "LOADER.POPULATE.HOUSES": "Заселяем жителей в дома…",
     "LOADER.PREPARE.LANDSCAPES": "Подготавливаем прекрасные пейзажи…",
     "LOADER.POLISH.COINS": "Полируем монетки до блеска…"
@@ -50,7 +96,6 @@
       "DESC": "Приглашайте друзей в CITY Holder и вы оба получите бонус за их регистрацию. Чем больше друзей, тем больше наград."
     },
     "FRIENDS.INVITED": "Приглашен",
-    "FRIENDS.INVITED.NAME": "Slava S. ⭐️",
     "BUTTON.BACK": "Назад",
     "BUTTON.NEXT": "Далее"
   },
@@ -88,12 +133,13 @@
     "INPUT.PLACEHOLDER": "Введите название города",
     "BUTTON.CREATE.CITY": "Создать город",
     "INSTRUCTION": {
-      "TITLE": "Придумайте название для своего города"
+      "TITLE": "Придумайте название для",
+      "CITY": "своего города"
     },
     "CHARACTER.DIALOGUE": "Все бригады готовы к работе!",
-    "ERROR.NAME.TOO.SHORT": "Название города должно содержать больше трех букв и не содержать спецсимволов",
+    "ERROR.NAME.TOO.SHORT": "Название города должно содержать от 3 до 20 букв и не содержать спецсимволов",
     "ERROR.NAME.EMPTY": "Название города не может быть пустым",
-    "ERROR.NAME.INVALID.CHARACTERS": "Название города может содержать только буквы и цифры"
+    "ERROR.NAME.INVALID.CHARACTERS": "Название города может содержать только буквы"
   },
   "FINISH.REGISTRATION.PAGE": {
     "SCREEN": {
@@ -115,9 +161,10 @@
   },
   "CITY.LEVEL.UP.PAGE": {
     "SCREEN": {
-      "TITLE": "Поздравляем! Ваш город достиг {{level_2}}"
+      "TITLE": "Поздравляем!",
+      "TITLE.2": "Ваш город достиг {{level}}"
     },
-    "SUBTITLE": "Ваша лига повышена: {{league_name_ru}}",
+    "SUBTITLE": "Ваша лига повышена:",
     "REWARD": {
       "TITLE": "Вы также получаете награду"
     },
@@ -128,9 +175,6 @@
       "TITLE": "Сила Холдера повышена"
     },
     "SUBTITLE": "Вы получили новый титул и новый аватар. Сила вашего клика увеличена. Так держать, Холдер!",
-    "NEW": {
-      "TITLE": "{{holder_title_ru}}"
-    },
     "TAP.POWER": {
       "TITLE": "Сила тапа",
       "DESC": "Количество монет, получаемых за клик"
@@ -149,69 +193,31 @@
       "TITLE": "Ежедневные бонусы"
     },
     "SUBTITLE": "Не пропускайте свой шанс собирать монеты каждый день! Забирайте награды ежедневно, чтобы не сбрасывать счётчик наград",
-    "DAY.1": "День 1",
-    "DAY.2": "День 2",
-    "DAY.3": "День 3",
-    "DAY.4": "День 4",
-    "DAY.5": "День 5",
-    "DAY.6": "День 6",
-    "DAY.7": "День 7",
-    "DAY.8": "День 8",
-    "DAY.9": "День 9",
-    "DAY.10": "День 10",
-    "DAY.11": "День 11",
-    "DAY.12": "День 12",
-    "BUTTON.COLLECT": "Собрать"
+    "BUTTON.COLLECT": "Собрать",
+    "REWARD.RECEIVED": "Награда получена!"
   },
   "TREASURY": {
-    "LABEL.HOLDERS": {
-      "TITLE": "{{holder_title_ru}}"
-    },
-    "LABEL.HOLDER.POWER": "Сила Холдера",
-    "BUTTON.AIRDROP": "AirDrop",
-    "LABEL.PROFIT.PER.TAP": "Прибыль за тап",
-    "LABEL.INCOME.PER.HOUR": "Доход в час",
-    "LABEL.CITY.POPULATION": "Население города",
     "LABEL.EARNED.COINS": "Заработано монет",
-    "LABEL.TURBO.CLICK": "Турбо клик",
-    "TAB.FRIENDS": "Друзья",
-    "TAB.TASKS": "Задания",
-    "TAB.YOUR.CITY": "Ваш город",
-    "TAB.RATING": "Рейтинг",
-    "TAB.TREASURY": "Казна"
+    "LABEL.TURBO.CLICK": "Турбо клик"
   },
   "CITY": {
-    "SCREEN": {
-      "TITLE": "Главный экран"
-    },
-    "LABEL.HOLDERS": {
-      "TITLE": "{{holder_title_ru}}"
-    },
-    "LABEL.HOLDER.POWER": "Сила Холдера {{N}}/10",
     "LABEL.BUDGET": "Бюджет города",
-    "LABEL.HOURLY.INCOME": "Доход в час",
-    "LABEL.CITY.POPULATION": "Население города",
-    "LABEL.LEVEL": "Уровень {{N}}/10",
+    "LABEL.LEVEL": "Уровень",
     "LABEL.NEXT.LEVEL": "След. уровень",
-    "BUTTON.AIRDROP": "AirDrop",
-    "BUTTON.OBJECT.CONSTRUCTION": "Строительство",
-    "TAB.FRIENDS": "Друзья",
-    "TAB.TASKS": "Задания",
-    "TAB.YOUR.CITY": "Ваш город",
-    "TAB.RATING": "Рейтинг",
-    "TAB.TREASURY": "Казна"
+    "BUTTON.OBJECT.CONSTRUCTION": "Строительство"
   },
   "FRIENDS.SCREEN": {
     "SCREEN": {
       "TITLE": "Реферальный доход"
     },
-    "LABEL.HOLDER.POWER": "Сила Холдера {{N}}/10",
+    "LABEL.HOLDER.POWER": "Сила Холдера",
     "BUTTON.AIRDROP": "AirDrop",
     "FRIENDS.DESCRIPTION": "Приглашайте друзей в CITY Holder и получайте награды за их регистрацию, а в дальнейшем и за их прогресс в игре",
     "BUTTON.INVITE.TELEGRAM": "Друзья из Telegram",
     "BUTTON.INVITE.TELEGRAM.PREMIUM": "Друзья с Telegram Premium",
     "REFERRAL.LINK": {
-      "TITLE": "Ваша реферальная ссылка"
+      "TITLE": "Ваша реферальная ссылка",
+      "COPIED": "Ссылка скопирована"
     },
     "BUTTON.INVITE.FRIENDS": "Пригласить друзей",
     "SCREEN.DESCRIPTION": "Здесь вы можете узнать, какой доход вам приносят ваши друзья и друзья ваших друзей",
@@ -222,7 +228,7 @@
     "LABEL.COLLECTABLE.INCOME": "Можно собрать",
     "BUTTON.COLLECT.INCOME": "Собрать доход",
     "LABEL.FRIENDS.LIST": "Список друзей",
-    "LABEL.FRIENDS.COUNT": "{{N}} друзей"
+    "LABEL.FRIENDS.COUNT": "N друзей"
   },
   "REFERRAL.INCOME.SCREEN": {
     "SCREEN": {
@@ -243,16 +249,7 @@
     },
     "COLUMN.CITY.LEVEL": "Уровень города",
     "COLUMN.BONUS": "Бонус при повышении",
-    "COLUMN.PREMIUM.BONUS": "Если у друга Premium",
-    "ROW.LEVEL.2": "Уровень 2",
-    "ROW.LEVEL.3": "Уровень 3",
-    "ROW.LEVEL.4": "Уровень 4",
-    "ROW.LEVEL.5": "Уровень 5",
-    "ROW.LEVEL.6": "Уровень 6",
-    "ROW.LEVEL.7": "Уровень 7",
-    "ROW.LEVEL.8": "Уровень 8",
-    "ROW.LEVEL.9": "Уровень 9",
-    "ROW.LEVEL.10": "Уровень 10"
+    "COLUMN.PREMIUM.BONUS": "Если у друга Premium"
   },
   "MAIN.TASKS.SCREEN": {
     "SCREEN": {
@@ -269,10 +266,8 @@
     "TASK.3.PROGRESS": "Приглашенные друзья"
   },
   "EASY.TASKS.SCREEN": {
-    "SCREEN": {
-      "TITLE": "{{mission_id}} : {{description_ru}}"
-    },
     "BUTTON.SUBSCRIBE": "Подписаться",
+    "BUTTON.FOLLOW": "Перейти",
     "BUTTON.WATCH": "Смотреть видео",
     "BUTTON.INVITE": "Пригласить друзей",
     "BUTTON.CHECK.COMPLETION": "Проверить выполнение"
@@ -282,21 +277,7 @@
       "TITLE": "Ежедневные бонусы"
     },
     "SCREEN.DESCRIPTION": "Не упускайте ежедневные бонусы! Собирайте их каждый день, чтобы сохранить прогресс и увеличить размер ваших бонусов",
-    "DAY.1": "День 1",
-    "DAY.COLLECTED": "Собрано",
-    "DAY.2": "День 2",
-    "DAY.3": "День 3",
-    "DAY.4": "День 4",
-    "DAY.5": "День 5",
-    "DAY.6": "День 6",
-    "DAY.7": "День 7",
-    "DAY.8": "День 8",
-    "DAY.9": "День 9",
-    "DAY.10": "День 10",
-    "DAY.11": "День 11",
-    "DAY.12": "День 12",
-    "DAY.13": "День 13",
-    "DAY.14": "День 14"
+    "DAY.COLLECTED": "Собрано"
   },
   "CONSTRUCTION.FILTERS.SCREEN": {
     "LABEL.SHOW": "Показать",
@@ -305,83 +286,66 @@
     "FILTER.MISSED": "Упущенные",
     "FILTER.NEW": "Новые",
     "FILTER.BUILT": "Построенные",
-    "FILTER.UNAVAILABLE": "Недоступные"
+    "FILTER.UPGRADED": "Улучшенные",
+    "FILTER.UNAVAILABLE": "Недоступные",
+    "NOTFOUND.TITLE": "Совпадений нет",
+    "NOTFOUND.DESCRIPTION": "В этой категории нет зданий, соответствующих выбранным фильтрам"
   },
   "CONSTRUCTION.TYPES.SCREEN": {
     "LABEL.CITY.BUDGET": "Бюджет города",
-    "LABEL.SHOW": "Показать",
-    "FILTER.ALL": "Все",
-    "SECTION": {
-      "TITLE": "Специальные объекты"
-    },
-    "SECTION.DESCRIPTION": "Особые здания, которые выделяют ваш город среди остальных и активно привлекают туристов и новых жителей",
-    "BUILDING.1.BUILD.BUTTON": "Построить",
-    "BUILDING.2.UPGRADE.BUTTON": "Улучшить",
-    "BUILDING.1.REQUIREMENT": "Чтобы построить",
-    "BUILDING.2.FULLY.UPGRADED": "Полностью улучшено",
+    "BUILDING.BUILD.BUTTON": "Построить",
+    "BUILDING.UPGRADE.BUTTON": "Улучшить",
+    "BUILDING.REQUIREMENT": "Чтобы построить",
+    "BUILDING.FULLY.UPGRADED": "Полностью улучшено",
+    "BUILDING.SPECIAL.FULLY.UPGRADED": "Здание построено",
     "UNLOCK.REQUIREMENTS": {
       "TITLE": "Условия разблокировки раздела"
     }
   },
   "CONSTRUCTION.BUILD.SCREEN": {
-    "SECTION": {
-      "TITLE": "{{object_type}}"
-    },
-    "BUILDING": {
-      "TITLE": "{{object_name_ru}}"
-    },
-    "BUILDING.DESCRIPTION": "{{object_description_ru}}",
     "POPULATION.LABEL": "Население",
     "INCOME.LABEL": "Доход в час",
     "BUTTON.BUILD": "Построить"
   },
   "CONSTRUCTION.UPGRADE.SCREEN": {
-    "SECTION": {
-      "TITLE": "{{object_type}}"
-    },
-    "BUILDING": {
-      "TITLE": "{{object_name_ru}}"
-    },
-    "BUILDING.DESCRIPTION": "{{object_description_ru}}",
-    "POPULATION.LABEL": "Население",
-    "INCOME.LABEL": "Доход в час",
-    "CURRENT.POPULATION": "Население",
-    "CURRENT.INCOME": "Доход в час",
-    "NEXT.LEVEL": "Следующий уровень",
-    "NEXT.LEVEL.INCOME": "Доход в час",
-    "NEXT.LEVEL.POPULATION": "Население",
-    "BUTTON.UPGRADE": "Улучшить"
+    "NEXT.LEVEL": "Следующий уровень"
   },
   "CONSTRUCTION.UNAVAILABLE.SCREEN": {
-    "SECTION": {
-      "TITLE": "{{object_type}}"
-    },
-    "BUILDING": {
-      "TITLE": "{{object_name_ru}}"
-    },
-    "BUILDING.DESCRIPTION": "{{object_description_ru}}",
-    "CURRENT.POPULATION": "Население",
-    "CURRENT.INCOME": "Доход в час",
     "UNLOCK.CONDITIONS": {
       "TITLE": "Условия разблокировки"
     },
-    "INVITED.FRIENDS.LABEL": "Приглашенные друзья",
-    "REMAINING.CONDITIONS": "Для открытия здания осталось соблюсти условий: 3 из 3"
+    "REMAINING.CONDITIONS": "Для открытия здания осталось соблюсти условий"
   },
   "BOOSTERS.STATUS.SCREEN": {
     "SECTION": {
       "TITLE": "Бустеры"
     },
     "SECTION.DESCRIPTION": "Выполняйте задания, чтобы зарабатывать больше монет и открывать новые возможности в игре",
-    "BOOSTER.BUTTON.FREE": "Бесплатно",
-    "BOOSTER.ACTIVE": "Активен: {{timer}}"
+    "BOOSTER.INSTANT.REFILL": {
+      "TITLE": "Мгновенное пополнение",
+      "DESC": "Мгновенно пополняет запас энергии. Можно использовать 3 раза в день"
+    },
+    "BOOSTER.INSTANT.REFILL.FREE": "Бесплатно",
+    "BOOSTER.TURBO.CLICK": {
+      "TITLE": "Турбо клик",
+      "DESC": "Каждое нажатие в казне удваивается на 60 секунд. До 3 использований в день"
+    },
+    "BOOSTER.TURBO.CLICK.FREE": "Бесплатно",
+    "BOOSTER.ACTIVE": "Активен"
   },
   "BOOSTERS.PURCHASE.SCREEN": {
     "SECTION": {
       "TITLE": "Улучшения"
     },
-    "BUTTON.BUY": "Купить",
-    "BUTTON.UPGRADE": "Улучшить",
+    "ENERGY.CAP": "Запас энергии",
+    "ENERGY.CAP.DESCRIPTION": "Навсегда увеличивает максимальный запас энергии",
+    "BUY.ENERGY": "Купить",
+    "RECOVERY.MINUTES": "мин.",
+    "RECOVERY.RATE": "Скорость восстановления",
+    "RECOVERY.RATE.DESCRIPTION": "Навсегда увеличивает скорость восстановления казны",
+    "UPGRADE": "Улучшить",
+    "TAP.BOT": "Тап-бот",
+    "TAP.BOT.DESCRIPTION": "Автоматический помощник, который собирает налоги в ваше отсутствие",
     "COMING.SOON": "Скоро"
   },
   "RANKING.MAIN.SCREEN": {
@@ -442,7 +406,6 @@
     "FEEDBACK.SEND.BUTTON": "Отправить"
   },
   "CITY.STATISTICS.SCREEN": {
-    "CITY.NAME": "{{Name.CIty}}",
     "LEVEL": "Уровень",
     "NEXT.LEVEL": "След. уровень",
     "BUILDINGS": "Строений",
@@ -458,5 +421,27 @@
     },
     "ABOUT.CITY.DESCRIPTION": "В CITY Holder вы участвуете в создании симуляции идеального города. Стройте и улучшайте здания, обеспечивая жителей всем необходимым. Возводите жилые дома, развлекательные и промышленные комплексы. Эффективно управляйте ресурсами, развивайте экономику и привлекайте новых жителей. Ваша задача — сделать самую успешную симуляцию города будущего и привлечь как можно больше жителей.",
     "GOT.IT.BUTTON": "Понятно!"
+  },
+  "CATEGORIES": {
+    "RESIDENT": {
+      "TITLE": "Жилые объекты",
+      "DESCRIPTION": "Здания, формирующие быт населения. Привлекают в город больше жителей"
+    },
+    "COMMERCIAL": {
+      "TITLE": "Коммерческие объекты",
+      "DESCRIPTION": "Здания, создающие бытовой комфорт для жителей вашего города"
+    },
+    "INDUSTRIAL": {
+      "TITLE": "Промышленные объекты",
+      "DESCRIPTION": "Двигатели экономики вашего города. Обеспечивают рабочие места и стимулируют экономический рост"
+    },
+    "CITY": {
+      "TITLE": "Городские объекты",
+      "DESCRIPTION": "Инфраструктура и общественные здания. Улучшают качество жизни в вашем городе"
+    },
+    "SPECIAL": {
+      "TITLE": "Особые объекты",
+      "DESCRIPTION": "Особые здания, которые выделяют ваш город среди остальных и активно привлекают туристов и новых жителей"
+    }
   }
 }
