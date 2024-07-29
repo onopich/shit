@@ -1,0 +1,462 @@
+{
+  "Loader": {
+    "LOADER.POPULATE.HOUSES": "Заселяем жителей в дома…",
+    "LOADER.PREPARE.LANDSCAPES": "Подготавливаем прекрасные пейзажи…",
+    "LOADER.POLISH.COINS": "Полируем монетки до блеска…"
+  },
+  "START": {
+    "SCREEN": {
+      "TITLE": "Начало"
+    },
+    "BUTTON.SKIP": "Пропустить",
+    "WELCOME": {
+      "TITLE": "Добро пожаловать в CITY Holder!",
+      "DESC": "Ваш путь к созданию идеального города начинается здесь. Стройте и развивайте свой город, привлекайте новых жителей и увеличивайте доход."
+    },
+    "BUTTON.NEXT": "Далее"
+  },
+  "TAXES": {
+    "SCREEN": {
+      "TITLE": "Налоги"
+    },
+    "BUTTON.SKIP": "Пропустить",
+    "TAXES": {
+      "TITLE": "Собирайте налоги и пополняйте бюджет",
+      "DESC": "Нажимайте на кнопку сбора налогов, чтобы получать монеты. Налоги накапливаются со временем, поэтому заходите в игру регулярно для максимального дохода."
+    },
+    "BUTTON.BACK": "Назад",
+    "BUTTON.NEXT": "Далее"
+  },
+  "CONSTRUCTION": {
+    "SCREEN": {
+      "TITLE": "Строительство"
+    },
+    "BUTTON.SKIP": "Пропустить",
+    "CONSTRUCTION": {
+      "TITLE": "Стройте и улучшайте здания в городе",
+      "DESC": "Здания привлекают новых жителей и приносят доход. Улучшайте их за монеты, чтобы повысить уровень и увеличить их эффективность."
+    },
+    "BUILDING.VILLA": "Вилла",
+    "BUTTON.BACK": "Назад",
+    "BUTTON.NEXT": "Далее"
+  },
+  "FRIENDS": {
+    "SCREEN": {
+      "TITLE": "Друзья"
+    },
+    "BUTTON.SKIP": "Пропустить",
+    "FRIENDS": {
+      "TITLE": "Привлекайте друзей и зарабатывайте!",
+      "DESC": "Приглашайте друзей в CITY Holder и вы оба получите бонус за их регистрацию. Чем больше друзей, тем больше наград."
+    },
+    "FRIENDS.INVITED": "Приглашен",
+    "FRIENDS.INVITED.NAME": "Slava S. ⭐️",
+    "BUTTON.BACK": "Назад",
+    "BUTTON.NEXT": "Далее"
+  },
+  "LEAGUES": {
+    "SCREEN": {
+      "TITLE": "Лиги"
+    },
+    "BUTTON.SKIP": "Пропустить",
+    "LEAGUES": {
+      "TITLE": "Соревнуйтесь с другими игроками в рейтингах и лигах",
+      "DESC": "Увеличивайте население и доходы своего города, чтобы получать ценные награды. Достигайте новых высот и блистайте!"
+    },
+    "LEAGUES.NEXT.LEVEL": "След. уровень",
+    "LEAGUES.LEVEL": "Уровень 9/10",
+    "BUTTON.BACK": "Назад",
+    "BUTTON.NEXT": "Далее"
+  },
+  "AIRDROPS": {
+    "SCREEN": {
+      "TITLE": "AirDrops"
+    },
+    "BUTTON.SKIP": "Пропустить",
+    "AIRDROPS": {
+      "TITLE": "Получайте токены $CITY за свои достижения",
+      "DESC": "Активные игроки получают награды за свои успехи в игре в конце каждого сезона"
+    },
+    "AIRDROPS.TOKEN": "$CITY",
+    "BUTTON.BACK": "Назад",
+    "BUTTON.NEXT": "Далее"
+  },
+  "START.REGISTRATION.PAGE": {
+    "SCREEN": {
+      "TITLE": "Создание города"
+    },
+    "INPUT.PLACEHOLDER": "Введите название города",
+    "BUTTON.CREATE.CITY": "Создать город",
+    "INSTRUCTION": {
+      "TITLE": "Придумайте название для своего города"
+    },
+    "CHARACTER.DIALOGUE": "Все бригады готовы к работе!",
+    "ERROR.NAME.TOO.SHORT": "Название города должно содержать больше трех букв и не содержать спецсимволов",
+    "ERROR.NAME.EMPTY": "Название города не может быть пустым",
+    "ERROR.NAME.INVALID.CHARACTERS": "Название города может содержать только буквы и цифры"
+  },
+  "FINISH.REGISTRATION.PAGE": {
+    "SCREEN": {
+      "TITLE": "Поздравляем!"
+    },
+    "SUBTITLE": "Вы стали Холдером своего города!",
+    "WELCOME.MESSAGE": "Добро пожаловать в",
+    "INSTRUCTION": "Стройте жилые комплексы, магазины, развлекательные и производственные объекты. Развивайте город чтобы привлечь в него как можно больше жителей и превратить его в богатый мегаполис",
+    "BUTTON.START": "Начнем"
+  },
+  "INCOME.COLLECTION.PAGE": {
+    "SCREEN": {
+      "TITLE": "С возвращением, Холдер!"
+    },
+    "SUBTITLE": "Пока вас не было, вы заработали",
+    "TAX.COLLECTION": "Включая сбор налогов на сумму",
+    "BUTTON.OK": "Отлично!",
+    "REMINDER": "Не забудьте зайти в раздел «Друзья» и собрать доход"
+  },
+  "CITY.LEVEL.UP.PAGE": {
+    "SCREEN": {
+      "TITLE": "Поздравляем! Ваш город достиг {{level_2}}"
+    },
+    "SUBTITLE": "Ваша лига повышена: {{league_name_ru}}",
+    "REWARD": {
+      "TITLE": "Вы также получаете награду"
+    },
+    "BUTTON.CLAIM.REWARD": "Забрать награду"
+  },
+  "HOLDER.LEVEL.UP.PAGE": {
+    "SCREEN": {
+      "TITLE": "Сила Холдера повышена"
+    },
+    "SUBTITLE": "Вы получили новый титул и новый аватар. Сила вашего клика увеличена. Так держать, Холдер!",
+    "NEW": {
+      "TITLE": "{{holder_title_ru}}"
+    },
+    "TAP.POWER": {
+      "TITLE": "Сила тапа",
+      "DESC": "Количество монет, получаемых за клик"
+    },
+    "BUTTON.ACCEPT": "Принято!"
+  },
+  "NOT.ENOUGH.ENERGY.PAGE": {
+    "CREEN": {
+      "TITLE": "Вы устали собирать налоги"
+    },
+    "SUBTITLE": "Ваш запас энергии на сегодня закончился. Восстановление энергии возобновится через <time-countdown>",
+    "BUTTON.UNDERSTOOD": "Понял!"
+  },
+  "DAILY.BONUS.PAGE": {
+    "SCREEN": {
+      "TITLE": "Ежедневные бонусы"
+    },
+    "SUBTITLE": "Не пропускайте свой шанс собирать монеты каждый день! Забирайте награды ежедневно, чтобы не сбрасывать счётчик наград",
+    "DAY.1": "День 1",
+    "DAY.2": "День 2",
+    "DAY.3": "День 3",
+    "DAY.4": "День 4",
+    "DAY.5": "День 5",
+    "DAY.6": "День 6",
+    "DAY.7": "День 7",
+    "DAY.8": "День 8",
+    "DAY.9": "День 9",
+    "DAY.10": "День 10",
+    "DAY.11": "День 11",
+    "DAY.12": "День 12",
+    "BUTTON.COLLECT": "Собрать"
+  },
+  "TREASURY": {
+    "LABEL.HOLDERS": {
+      "TITLE": "{{holder_title_ru}}"
+    },
+    "LABEL.HOLDER.POWER": "Сила Холдера",
+    "BUTTON.AIRDROP": "AirDrop",
+    "LABEL.PROFIT.PER.TAP": "Прибыль за тап",
+    "LABEL.INCOME.PER.HOUR": "Доход в час",
+    "LABEL.CITY.POPULATION": "Население города",
+    "LABEL.EARNED.COINS": "Заработано монет",
+    "LABEL.TURBO.CLICK": "Турбо клик",
+    "TAB.FRIENDS": "Друзья",
+    "TAB.TASKS": "Задания",
+    "TAB.YOUR.CITY": "Ваш город",
+    "TAB.RATING": "Рейтинг",
+    "TAB.TREASURY": "Казна"
+  },
+  "CITY": {
+    "SCREEN": {
+      "TITLE": "Главный экран"
+    },
+    "LABEL.HOLDERS": {
+      "TITLE": "{{holder_title_ru}}"
+    },
+    "LABEL.HOLDER.POWER": "Сила Холдера {{N}}/10",
+    "LABEL.BUDGET": "Бюджет города",
+    "LABEL.HOURLY.INCOME": "Доход в час",
+    "LABEL.CITY.POPULATION": "Население города",
+    "LABEL.LEVEL": "Уровень {{N}}/10",
+    "LABEL.NEXT.LEVEL": "След. уровень",
+    "BUTTON.AIRDROP": "AirDrop",
+    "BUTTON.OBJECT.CONSTRUCTION": "Строительство",
+    "TAB.FRIENDS": "Друзья",
+    "TAB.TASKS": "Задания",
+    "TAB.YOUR.CITY": "Ваш город",
+    "TAB.RATING": "Рейтинг",
+    "TAB.TREASURY": "Казна"
+  },
+  "FRIENDS.SCREEN": {
+    "SCREEN": {
+      "TITLE": "Реферальный доход"
+    },
+    "LABEL.HOLDER.POWER": "Сила Холдера {{N}}/10",
+    "BUTTON.AIRDROP": "AirDrop",
+    "FRIENDS.DESCRIPTION": "Приглашайте друзей в CITY Holder и получайте награды за их регистрацию, а в дальнейшем и за их прогресс в игре",
+    "BUTTON.INVITE.TELEGRAM": "Друзья из Telegram",
+    "BUTTON.INVITE.TELEGRAM.PREMIUM": "Друзья с Telegram Premium",
+    "REFERRAL.LINK": {
+      "TITLE": "Ваша реферальная ссылка"
+    },
+    "BUTTON.INVITE.FRIENDS": "Пригласить друзей",
+    "SCREEN.DESCRIPTION": "Здесь вы можете узнать, какой доход вам приносят ваши друзья и друзья ваших друзей",
+    "LABEL.COLLECTED.INCOME": "Собранный доход",
+    "LABEL.FIRST.LEVEL.FRIENDS": "Друзья 1-го круга",
+    "LABEL.SECOND.LEVEL.FRIENDS": "Друзья 2-го круга",
+    "LABEL.THIRD.LEVEL.FRIENDS": "Друзья 3-го круга",
+    "LABEL.COLLECTABLE.INCOME": "Можно собрать",
+    "BUTTON.COLLECT.INCOME": "Собрать доход",
+    "LABEL.FRIENDS.LIST": "Список друзей",
+    "LABEL.FRIENDS.COUNT": "{{N}} друзей"
+  },
+  "REFERRAL.INCOME.SCREEN": {
+    "SCREEN": {
+      "TITLE": "Бонус за повышение уровня городов ваших друзей"
+    },
+    "SCREEN.DESCRIPTION": "Чем выше уровень города вашего друга, тем больший бонус вы получите при его повышении.",
+    "FRIENDS.LEVEL.1": {
+      "TITLE": "Друзья 1-го круга",
+      "DESC": "100% От бонуса при получении уровня"
+    },
+    "FRIENDS.LEVEL.2": {
+      "TITLE": "Друзья 2-го круга",
+      "DESC": "10% От бонуса при получении уровня"
+    },
+    "FRIENDS.LEVEL.3": {
+      "TITLE": "Друзья 3-го круга",
+      "DESC": "2.5% От бонуса при получении уровня"
+    },
+    "COLUMN.CITY.LEVEL": "Уровень города",
+    "COLUMN.BONUS": "Бонус при повышении",
+    "COLUMN.PREMIUM.BONUS": "Если у друга Premium",
+    "ROW.LEVEL.2": "Уровень 2",
+    "ROW.LEVEL.3": "Уровень 3",
+    "ROW.LEVEL.4": "Уровень 4",
+    "ROW.LEVEL.5": "Уровень 5",
+    "ROW.LEVEL.6": "Уровень 6",
+    "ROW.LEVEL.7": "Уровень 7",
+    "ROW.LEVEL.8": "Уровень 8",
+    "ROW.LEVEL.9": "Уровень 9",
+    "ROW.LEVEL.10": "Уровень 10"
+  },
+  "MAIN.TASKS.SCREEN": {
+    "SCREEN": {
+      "TITLE": "Задания"
+    },
+    "SCREEN.DESCRIPTION": "Выполняйте задания, чтобы заработать больше монет и открыть дополнительные возможности в игре",
+    "DAILY.BONUSES": {
+      "TITLE": "Ежедневные бонусы"
+    },
+    "DAILY.BONUSES.DESCRIPTION": "Заходите в игру каждый день и получайте бонусы",
+    "TASK.LIST": {
+      "TITLE": "Список заданий"
+    },
+    "TASK.3.PROGRESS": "Приглашенные друзья"
+  },
+  "EASY.TASKS.SCREEN": {
+    "SCREEN": {
+      "TITLE": "{{mission_id}} : {{description_ru}}"
+    },
+    "BUTTON.SUBSCRIBE": "Подписаться",
+    "BUTTON.WATCH": "Смотреть видео",
+    "BUTTON.INVITE": "Пригласить друзей",
+    "BUTTON.CHECK.COMPLETION": "Проверить выполнение"
+  },
+  "DAILY.BONUSES.SCREEN": {
+    "SCREEN": {
+      "TITLE": "Ежедневные бонусы"
+    },
+    "SCREEN.DESCRIPTION": "Не упускайте ежедневные бонусы! Собирайте их каждый день, чтобы сохранить прогресс и увеличить размер ваших бонусов",
+    "DAY.1": "День 1",
+    "DAY.COLLECTED": "Собрано",
+    "DAY.2": "День 2",
+    "DAY.3": "День 3",
+    "DAY.4": "День 4",
+    "DAY.5": "День 5",
+    "DAY.6": "День 6",
+    "DAY.7": "День 7",
+    "DAY.8": "День 8",
+    "DAY.9": "День 9",
+    "DAY.10": "День 10",
+    "DAY.11": "День 11",
+    "DAY.12": "День 12",
+    "DAY.13": "День 13",
+    "DAY.14": "День 14"
+  },
+  "CONSTRUCTION.FILTERS.SCREEN": {
+    "LABEL.SHOW": "Показать",
+    "FILTER.ALL": "Все",
+    "FILTER.AVAILABLE": "Доступные",
+    "FILTER.MISSED": "Упущенные",
+    "FILTER.NEW": "Новые",
+    "FILTER.BUILT": "Построенные",
+    "FILTER.UNAVAILABLE": "Недоступные"
+  },
+  "CONSTRUCTION.TYPES.SCREEN": {
+    "LABEL.CITY.BUDGET": "Бюджет города",
+    "LABEL.SHOW": "Показать",
+    "FILTER.ALL": "Все",
+    "SECTION": {
+      "TITLE": "Специальные объекты"
+    },
+    "SECTION.DESCRIPTION": "Особые здания, которые выделяют ваш город среди остальных и активно привлекают туристов и новых жителей",
+    "BUILDING.1.BUILD.BUTTON": "Построить",
+    "BUILDING.2.UPGRADE.BUTTON": "Улучшить",
+    "BUILDING.1.REQUIREMENT": "Чтобы построить",
+    "BUILDING.2.FULLY.UPGRADED": "Полностью улучшено",
+    "UNLOCK.REQUIREMENTS": {
+      "TITLE": "Условия разблокировки раздела"
+    }
+  },
+  "CONSTRUCTION.BUILD.SCREEN": {
+    "SECTION": {
+      "TITLE": "{{object_type}}"
+    },
+    "BUILDING": {
+      "TITLE": "{{object_name_ru}}"
+    },
+    "BUILDING.DESCRIPTION": "{{object_description_ru}}",
+    "POPULATION.LABEL": "Население",
+    "INCOME.LABEL": "Доход в час",
+    "BUTTON.BUILD": "Построить"
+  },
+  "CONSTRUCTION.UPGRADE.SCREEN": {
+    "SECTION": {
+      "TITLE": "{{object_type}}"
+    },
+    "BUILDING": {
+      "TITLE": "{{object_name_ru}}"
+    },
+    "BUILDING.DESCRIPTION": "{{object_description_ru}}",
+    "POPULATION.LABEL": "Население",
+    "INCOME.LABEL": "Доход в час",
+    "CURRENT.POPULATION": "Население",
+    "CURRENT.INCOME": "Доход в час",
+    "NEXT.LEVEL": "Следующий уровень",
+    "NEXT.LEVEL.INCOME": "Доход в час",
+    "NEXT.LEVEL.POPULATION": "Население",
+    "BUTTON.UPGRADE": "Улучшить"
+  },
+  "CONSTRUCTION.UNAVAILABLE.SCREEN": {
+    "SECTION": {
+      "TITLE": "{{object_type}}"
+    },
+    "BUILDING": {
+      "TITLE": "{{object_name_ru}}"
+    },
+    "BUILDING.DESCRIPTION": "{{object_description_ru}}",
+    "CURRENT.POPULATION": "Население",
+    "CURRENT.INCOME": "Доход в час",
+    "UNLOCK.CONDITIONS": {
+      "TITLE": "Условия разблокировки"
+    },
+    "INVITED.FRIENDS.LABEL": "Приглашенные друзья",
+    "REMAINING.CONDITIONS": "Для открытия здания осталось соблюсти условий: 3 из 3"
+  },
+  "BOOSTERS.STATUS.SCREEN": {
+    "SECTION": {
+      "TITLE": "Бустеры"
+    },
+    "SECTION.DESCRIPTION": "Выполняйте задания, чтобы зарабатывать больше монет и открывать новые возможности в игре",
+    "BOOSTER.BUTTON.FREE": "Бесплатно",
+    "BOOSTER.ACTIVE": "Активен: {{timer}}"
+  },
+  "BOOSTERS.PURCHASE.SCREEN": {
+    "SECTION": {
+      "TITLE": "Улучшения"
+    },
+    "BUTTON.BUY": "Купить",
+    "BUTTON.UPGRADE": "Улучшить",
+    "COMING.SOON": "Скоро"
+  },
+  "RANKING.MAIN.SCREEN": {
+    "SECTION": {
+      "TITLE": "{{league_name_ru}}"
+    },
+    "PARTICIPANTS.RATING": "Рейтинг участников"
+  },
+  "RANKING.POPUP.SCREEN": {
+    "SCREEN": {
+      "TITLE": "О рейтинге"
+    },
+    "DESCRIPTION": "По мере роста вашего города вы будете переходить в более высокие Лиги. В каждой Лиге Холдеры соревнуются по доходу их городов.Чем больше население вашего города, тем выше Лига. А чем больше доход вашего города, тем выше ваше положение в рейтинге.",
+    "BUTTON.TEXT": "Понятно!"
+  },
+  "PROFILE.SCREEN": {
+    "HOLDER.LEVEL": "Сила Холдера {{N}}/10",
+    "ACCOUNT.AGE": "Возраст аккаунта",
+    "ACCOUNT.AGE.DETAIL": "{{N}} месяцев {{N}} дней {{N}} часов",
+    "RATING": {
+      "TITLE": "Рейтинг"
+    },
+    "LEAGUE": {
+      "TITLE": "{{league_name_ru}}"
+    },
+    "NEXT.LEAGUE": "Следующая лига",
+    "LEVEL.DETAIL": "Уровень {{N}}/10",
+    "NEXT.LEVEL": "След. уровень",
+    "BUILDINGS.COUNT": "Строений",
+    "INCOME.PER.HOUR": "Доход в час",
+    "CITY.POPULATION": "Население города",
+    "CITY.DAY": "День города"
+  },
+  "SETTINGS.SCREEN": {
+    "SETTINGS": {
+      "TITLE": "Настройки"
+    },
+    "SOUND": "Звук",
+    "VIBRATION": "Вибрация",
+    "APP.LANGUAGE": "Язык приложения",
+    "FEEDBACK": "Обратная связь",
+    "LICENSE.AGREEMENT": "Лицензионное соглашение",
+    "PRIVACY.POLICY": "Политика конфиденциальности",
+    "DELETE.ACCOUNT": "Удалить аккаунт"
+  },
+  "DELETE.ACCOUNT.SCREEN": {
+    "DELETE.ACCOUNT.CONFIRM": "Вы уверены?",
+    "DELETE.ACCOUNT.WARNING": "Удаление аккаунта необратимо. Будут удалены: профиль, статистика, а также всё, что вы заработали.",
+    "CANCEL": "Я передумал",
+    "DELETE.ACCOUNT.ACTION": "Удалить аккаунт"
+  },
+  "FEEDBACK.SCREEN": {
+    "FEEDBACK": {
+      "TITLE": "Обратная связь"
+    },
+    "FEEDBACK.MESSAGE.PLACEHOLDER": "Ваше сообщение",
+    "FEEDBACK.ERROR.MSG": "Это поле не может быть пустым",
+    "FEEDBACK.SEND.BUTTON": "Отправить"
+  },
+  "CITY.STATISTICS.SCREEN": {
+    "CITY.NAME": "{{Name.CIty}}",
+    "LEVEL": "Уровень",
+    "NEXT.LEVEL": "След. уровень",
+    "BUILDINGS": "Строений",
+    "INCOME.PER.HOUR": "Доход в час",
+    "CITY.POPULATION": "Население города",
+    "CITY.DAY": "День города",
+    "BUILT.BUILDINGS": "Построенные здания",
+    "BUILD.OBJECTS": "Строительство объектов"
+  },
+  "CITY.POPUP.SCREEN": {
+    "ABOUT.CITY": {
+      "TITLE": "О вашем городе"
+    },
+    "ABOUT.CITY.DESCRIPTION": "В CITY Holder вы участвуете в создании симуляции идеального города. Стройте и улучшайте здания, обеспечивая жителей всем необходимым. Возводите жилые дома, развлекательные и промышленные комплексы. Эффективно управляйте ресурсами, развивайте экономику и привлекайте новых жителей. Ваша задача — сделать самую успешную симуляцию города будущего и привлечь как можно больше жителей.",
+    "GOT.IT.BUTTON": "Понятно!"
+  }
+}
