@@ -22,7 +22,7 @@
     "LABEL.PROFIT.PER.TAP": "Прибыль за тап",
     "LABEL.LEVEL": "Уровень",
     "LABEL.NEXT.LEVEL": "След. уровень",
-    "BUTTON.AIRDROP": "Airdrop"
+    "BUTTON.AIRDROP": "AirDrop"
   },
   "LOCK": {
     "TITLE": "Играйте <br/> со смартфона"
@@ -32,17 +32,22 @@
       "TITLE": "Приготовьтесь, Холдер! AirDrop уже скоро!"
     },
     "SCREEN.DESCRIPTION": "Подготовка к запуску AirDrop идет полным ходом. Следите за статусами и обновлениями, чтобы оставаться в курсе",
-    "TASK.EXCHANGES": "Переговоры с биржами",
-    "TASK.MARKET.MAKERS": "Переговоры с маркет-мейкерами",
-    "TASK.AIRDROP.TASKS.LIST": "Список задач AirDrop"
-  },
-  "AIRDROP.DROP.TASKS.SCREEN": {
-    "SCREEN": {
-      "TITLE": "AirDrop Tasks"
+    "TASKS": {
+      "GATHERING.USER.BASE": "Сбор пользователей через Mini-app",
+      "CLOSED.BETA": "CITY Holder: Закрытый Бета-тест",
+      "STRATEGIC.PARTNERSHIPS": "Запуск стратегических партнерств",
+      "PUBLIC.LAUNCH": "CITY Holder: Публичный запуск игры",
+      "NEGOTIATIONS": "Переговоры с СЕХ и маркет-мейкерами",
+      "AIRDROP.TASK.LIST": "Список задач для получения AirDrop"
     },
-    "SCREEN.DESCRIPTION": "Выполните задания ниже, чтобы принять участие в AirDrop токена $CITY",
-    "TASK.LIST": {
-      "TITLE": "Список заданий"
+    "AIRDROP.DROP.TASKS.SCREEN": {
+      "SCREEN": {
+        "TITLE": "AirDrop Tasks"
+      },
+      "SCREEN.DESCRIPTION": "Выполните задания ниже, чтобы принять участие в AirDrop токена $CITY",
+      "TASK.LIST": {
+        "TITLE": "Список заданий"
+      }
     }
   },
   "LOADER": {
@@ -162,7 +167,7 @@
   "CITY.LEVEL.UP.PAGE": {
     "SCREEN": {
       "TITLE": "Поздравляем!",
-      "TITLE.2": "Ваш город достиг {{level}}"
+      "TITLE.2": "Ваш город достиг {{level}} уровня"
     },
     "SUBTITLE": "Ваша лига повышена:",
     "REWARD": {
@@ -212,7 +217,7 @@
     },
     "LABEL.HOLDER.POWER": "Сила Холдера",
     "BUTTON.AIRDROP": "AirDrop",
-    "FRIENDS.DESCRIPTION": "Приглашайте друзей в CITY Holder и получайте награды за их регистрацию, а в дальнейшем и за их прогресс в игре",
+    "FRIENDS.DESCRIPTION": "Приглашайте друзей в CITY Holder и вы вместе получите бонус за их регистрацию. Чем больше друзей, тем больше наград.",
     "BUTTON.INVITE.TELEGRAM": "Друзья из Telegram",
     "BUTTON.INVITE.TELEGRAM.PREMIUM": "Друзья с Telegram Premium",
     "REFERRAL.LINK": {
@@ -280,7 +285,7 @@
     "DAY.COLLECTED": "Собрано"
   },
   "CONSTRUCTION.FILTERS.SCREEN": {
-    "LABEL.SHOW": "Показать",
+    "LABEL.SHOW": "Показать фильтры",
     "FILTER.ALL": "Все",
     "FILTER.AVAILABLE": "Доступные",
     "FILTER.MISSED": "Упущенные",
@@ -314,7 +319,7 @@
     "UNLOCK.CONDITIONS": {
       "TITLE": "Условия разблокировки"
     },
-    "REMAINING.CONDITIONS": "Для открытия здания осталось соблюсти условий"
+    "REMAINING.CONDITIONS": "Для открытия здания осталось соблюсти условий: {{n}} из {{t}}"
   },
   "BOOSTERS.STATUS.SCREEN": {
     "SECTION": {
@@ -358,7 +363,7 @@
     "SCREEN": {
       "TITLE": "О рейтинге"
     },
-    "DESCRIPTION": "По мере роста вашего города вы будете переходить в более высокие Лиги. В каждой Лиге Холдеры соревнуются по доходу их городов.Чем больше население вашего города, тем выше Лига. А чем больше доход вашего города, тем выше ваше положение в рейтинге.",
+    "DESCRIPTION": "По мере роста вашего города вы будете переходить в более высокие Лиги. В каждой Лиге Холдеры соревнуются по доходу их городов. Чем больше население вашего города, тем выше Лига. А чем больше доход вашего города, тем выше ваше положение в рейтинге.",
     "BUTTON.TEXT": "Понятно!"
   },
   "PROFILE.SCREEN": {

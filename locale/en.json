@@ -18,9 +18,9 @@
     "LABEL.HOLDER.POWER": "Holder Power",
     "LABEL.BUDGET": "City Budget",
     "LABEL.HOURLY.INCOME": "Income per hour",
-    "LABEL.CITY.POPULATION": "City population",
+    "LABEL.CITY.POPULATION": "City Population",
     "LABEL.PROFIT.PER.TAP": "Profit per tap",
-    "BUTTON.AIRDROP": "Airdrop"
+    "BUTTON.AIRDROP": "AirDrop"
   },
   "LOCK": {
     "TITLE": "Play from your <br /> smartphone"
@@ -29,18 +29,23 @@
     "SCREEN": {
       "TITLE": "Get ready, Holder! AirDrop is coming soon!"
     },
-    "SCREEN.DESCRIPTION": "The preparation for the AirDrop launch is in full swing. Follow the statuses and updates to stay informed",
-    "TASK.EXCHANGES": "Negotiations with exchanges",
-    "TASK.MARKET.MAKERS": "Negotiations with market makers",
-    "TASK.AIRDROP.TASKS.LIST": "AirDrop Tasks List"
-  },
-  "AIRDROP.DROP.TASKS.SCREEN": {
-    "SCREEN": {
-      "TITLE": "AirDrop Tasks"
+    "SCREEN.DESCRIPTION": "Preparation for the AirDrop launch is in full swing. Keep an eye on statuses and updates to stay informed",
+    "TASKS": {
+      "GATHERING.USER.BASE": "Gathering user base via Mini-app",
+      "CLOSED.BETA": "CITY Holder: Closed Beta launch",
+      "STRATEGIC.PARTNERSHIPS": "Collaborations with strategic Partners",
+      "PUBLIC.LAUNCH": "CITY Holder: Public launch",
+      "NEGOTIATIONS": "Negotiations with CEX and market makers",
+      "AIRDROP.TASK.LIST": "AirDrop task list"
     },
-    "SCREEN.DESCRIPTION": "Complete the tasks below to participate in the $CITY token AirDrop",
-    "TASK.LIST": {
-      "TITLE": "Task List"
+    "AIRDROP.DROP.TASKS.SCREEN": {
+      "SCREEN": {
+        "TITLE": "AirDrop Tasks"
+      },
+      "SCREEN.DESCRIPTION": "Complete the tasks below to participate in the $CITY token AirDrop",
+      "TASK.LIST": {
+        "TITLE": "Task List"
+      }
     }
   },
   "LOADER": {
@@ -160,7 +165,7 @@
   "CITY.LEVEL.UP.PAGE": {
     "SCREEN": {
       "TITLE": "Congratulations!",
-      "TITLE.2": "Your city has reached {{level}}"
+      "TITLE.2": "Your city has reached level {{level}}"
     },
     "SUBTITLE": "Your league is promoted:",
     "REWARD": {
@@ -170,7 +175,7 @@
   },
   "HOLDER.LEVEL.UP.PAGE": {
     "SCREEN": {
-      "TITLE": "Holder power increased"
+      "TITLE": "Holder's Power increased"
     },
     "SUBTITLE": "You have received a new title and a new avatar. Your click power has increased. Keep it up, Holder!",
     "TAP.POWER": {
@@ -196,7 +201,7 @@
   },
   "TREASURY": {
     "LABEL.EARNED.COINS": "Coins earned",
-    "LABEL.TURBO.CLICK": "Turbo click"
+    "LABEL.TURBO.CLICK": "Turbo Click"
   },
   "CITY": {
     "LABEL.BUDGET": "City Budget",
@@ -209,7 +214,7 @@
       "TITLE": "Referral income"
     },
     "LABEL.HOLDER.POWER": "Holder's Power",
-    "FRIENDS.DESCRIPTION": "Invite friends to CITY Holder and receive rewards for their registration and progress in the game",
+    "FRIENDS.DESCRIPTION": "Invite friends to CITY Holder and you together will receive a bonus for their registration. The more friends, the more rewards.",
     "BUTTON.INVITE.TELEGRAM": "Friends from Telegram",
     "BUTTON.INVITE.TELEGRAM.PREMIUM": "Friends with Telegram Premium",
     "REFERRAL.LINK": {
@@ -244,7 +249,7 @@
       "TITLE": "Friends of the 3rd circle",
       "DESC": "2.5% Of the bonus when leveling up"
     },
-    "COLUMN.CITY.LEVEL": "City level",
+    "COLUMN.CITY.LEVEL": "City Level",
     "COLUMN.BONUS": "Bonus when leveling up",
     "COLUMN.PREMIUM.BONUS": "If the friend has Premium"
   },
@@ -277,7 +282,7 @@
     "DAY.COLLECTED": "Collected"
   },
   "CONSTRUCTION.FILTERS.SCREEN": {
-    "LABEL.SHOW": "Show",
+    "LABEL.SHOW": "Show filters",
     "FILTER.ALL": "All",
     "FILTER.AVAILABLE": "Available",
     "FILTER.MISSED": "Missed",
@@ -312,7 +317,7 @@
     "UNLOCK.CONDITIONS": {
       "TITLE": "Unlock conditions"
     },
-    "REMAINING.CONDITIONS": "To unlock the building, the following conditions must be met"
+    "REMAINING.CONDITIONS": "To unlock the building, the following conditions must be met: {{n}} of {{t}}"
   },
   "BOOSTERS.STATUS.SCREEN": {
     "SECTION": {
@@ -353,7 +358,7 @@
     "SCREEN": {
       "TITLE": "About the rating"
     },
-    "DESCRIPTION": "As your city grows, you will move to higher leagues. In each league, holders compete based on their city's income. The larger the population of your city, the higher the league. And the higher the income of your city, the higher your rank in the rating.",
+    "DESCRIPTION": "As your city grows, you will move to higher Leagues. In each League, Holders compete based on their city's income. The larger the population of your city, the higher the League. And the higher the income of your city, the higher your rank in the rating.",
     "BUTTON.TEXT": "Got it!"
   },
   "PROFILE.SCREEN": {
@@ -415,7 +420,7 @@
     "ABOUT.CITY": {
       "TITLE": "About your city"
     },
-    "ABOUT.CITY.DESCRIPTION": "In CITY Holder, you participate in creating a simulation of the perfect city. Build and upgrade buildings, providing residents with everything they need.Erect residential houses, entertainment, and industrial complexes. Manage resources efficiently, develop the economy, and attract new residents.Your task is to make the most successful simulation of the city of the future and attract as many residents as possible.",
+    "ABOUT.CITY.DESCRIPTION": "In CITY Holder, you participate in creating a simulation of the perfect city. Build and upgrade buildings, providing residents with everything they need. Erect residential houses, entertainment, and industrial complexes. Manage resources efficiently, develop the economy, and attract new residents. Your task is to make the most successful simulation of the city of the future and attract as many residents as possible.",
     "GOT.IT.BUTTON": "Got it!"
   },
   "CATEGORIES": {
