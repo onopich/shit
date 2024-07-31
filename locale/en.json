@@ -36,6 +36,7 @@
       "STRATEGIC.PARTNERSHIPS": "Collaborations with strategic Partners",
       "PUBLIC.LAUNCH": "CITY Holder: Public launch",
       "NEGOTIATIONS": "Negotiations with CEX and market makers",
+      "CONNECTING_WALLET": "Connecting Wallet",
       "AIRDROP.TASK.LIST": "AirDrop task list"
     },
     "AIRDROP.DROP.TASKS.SCREEN": {
@@ -282,7 +283,7 @@
     "DAY.COLLECTED": "Collected"
   },
   "CONSTRUCTION.FILTERS.SCREEN": {
-    "LABEL.SHOW": "Show filters",
+    "LABEL.SHOW": "Show",
     "FILTER.ALL": "All",
     "FILTER.AVAILABLE": "Available",
     "FILTER.MISSED": "Missed",
@@ -299,7 +300,7 @@
     "BUILDING.UPGRADE.BUTTON": "Improve",
     "BUILDING.REQUIREMENT": "To build",
     "BUILDING.FULLY.UPGRADED": "Fully improved",
-    "BUILDING.SPECIAL.FULLY.UPGRADED": "You own this building",
+    "BUILDING.SPECIAL.FULLY.UPGRADED": "Object completed",
     "FULLY.UPGRADED": "Fully upgraded",
     "UNLOCK.REQUIREMENTS": {
       "TITLE": "Section unlock conditions"
@@ -315,7 +316,7 @@
   },
   "CONSTRUCTION.UNAVAILABLE.SCREEN": {
     "UNLOCK.CONDITIONS": {
-      "TITLE": "Unlock conditions"
+      "TITLE": "Requirements"
     },
     "REMAINING.CONDITIONS": "To unlock the building, the following conditions must be met: {{n}} of {{t}}"
   },

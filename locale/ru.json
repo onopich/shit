@@ -38,6 +38,7 @@
       "STRATEGIC.PARTNERSHIPS": "Запуск стратегических партнерств",
       "PUBLIC.LAUNCH": "CITY Holder: Публичный запуск игры",
       "NEGOTIATIONS": "Переговоры с СЕХ и маркет-мейкерами",
+      "CONNECTING.WALLET": "Подключение кошелька",
       "AIRDROP.TASK.LIST": "Список задач для получения AirDrop"
     },
     "AIRDROP.DROP.TASKS.SCREEN": {
@@ -285,7 +286,7 @@
     "DAY.COLLECTED": "Собрано"
   },
   "CONSTRUCTION.FILTERS.SCREEN": {
-    "LABEL.SHOW": "Показать фильтры",
+    "LABEL.SHOW": "Показать",
     "FILTER.ALL": "Все",
     "FILTER.AVAILABLE": "Доступные",
     "FILTER.MISSED": "Упущенные",
@@ -302,7 +303,7 @@
     "BUILDING.UPGRADE.BUTTON": "Улучшить",
     "BUILDING.REQUIREMENT": "Чтобы построить",
     "BUILDING.FULLY.UPGRADED": "Полностью улучшено",
-    "BUILDING.SPECIAL.FULLY.UPGRADED": "Здание построено",
+    "BUILDING.SPECIAL.FULLY.UPGRADED": "Объект построен",
     "UNLOCK.REQUIREMENTS": {
       "TITLE": "Условия разблокировки раздела"
     }
@@ -317,7 +318,7 @@
   },
   "CONSTRUCTION.UNAVAILABLE.SCREEN": {
     "UNLOCK.CONDITIONS": {
-      "TITLE": "Условия разблокировки"
+      "TITLE": "Требования"
     },
     "REMAINING.CONDITIONS": "Для открытия здания осталось соблюсти условий: {{n}} из {{t}}"
   },
