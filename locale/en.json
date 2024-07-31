@@ -5,7 +5,8 @@
     "NEXT": "Next",
     "BACK": "Back",
     "SKIP": "Skip",
-    "DAY": "Day"
+    "DAY": "Day",
+    "NUMBER_FORMAT": "{{value, number}}"
   },
   "NAVBAR": {
     "FRIENDS": "Friends",
@@ -60,7 +61,10 @@
     },
     "BUTTON.SKIP": "Skip",
     "WELCOME": {
-      "TITLE": "Welcome to CITY Holder!",
+      "TITLE": {
+        "PART1": "Welcome to ",
+        "PART2": "CITY Holder!"
+      },
       "DESC": "Your journey to creating the perfect city begins here. Build and develop your city, attract new residents, and increase your income."
     },
     "BUTTON.NEXT": "Next"
@@ -71,7 +75,10 @@
     },
     "BUTTON.SKIP": "Skip",
     "TAXES": {
-      "TITLE": "Collect taxes and replenish the budget",
+      "TITLE": {
+        "PART1": "Collect taxes ",
+        "PART2": "and replenish the budget"
+      },
       "DESC": "Tap the collect taxes button to receive coins. Taxes accumulate over time, so check in regularly for maximum income."
     },
     "BUTTON.BACK": "Back",
@@ -83,10 +90,13 @@
     },
     "BUTTON.SKIP": "Skip",
     "CONSTRUCTION": {
-      "TITLE": "Build and upgrade buildings in the city",
+      "TITLE": {
+        "PART1": "Build and upgrade ",
+        "PART2": "buildings in the city"
+      },
       "DESC": "Buildings attract new residents and generate income. Upgrade them with coins to level up and increase their efficiency."
     },
-    "BUILDING.VILLA": "Villa",
+    "VILLA": "Villa",
     "BUTTON.BACK": "Back",
     "BUTTON.NEXT": "Next"
   },
@@ -96,10 +106,14 @@
     },
     "BUTTON.SKIP": "Skip",
     "FRIENDS": {
-      "TITLE": "Invite friends and earn!",
+      "TITLE": {
+        "PART1": "Invite friends ",
+        "PART2": "and earn!"
+      },
       "DESC": "Invite friends to CITY Holder and you both will receive a bonus for their registration. The more friends, the more rewards."
     },
-    "FRIENDS.INVITED": "Invited",
+    "INVITED": "Invited",
+    "NEW": "Your new friend",
     "BUTTON.BACK": "Back",
     "BUTTON.NEXT": "Next"
   },
@@ -109,11 +123,14 @@
     },
     "BUTTON.SKIP": "Skip",
     "LEAGUES": {
-      "TITLE": "Compete with other players in rankings and leagues",
+      "TITLE": {
+        "PART1": "Compete ",
+        "PART2": "with other players in rankings and leagues"
+      },
       "DESC": "Increase your city’s population and income to receive valuable rewards. Reach new heights and shine!"
     },
-    "LEAGUES.NEXT.LEVEL": "Next level",
-    "LEAGUES.LEVEL": "Level 9/10",
+    "NEXT.LEVEL": "Next level",
+    "LEVEL": "Level",
     "BUTTON.BACK": "Back",
     "BUTTON.NEXT": "Next"
   },
@@ -123,8 +140,12 @@
     },
     "BUTTON.SKIP": "Skip",
     "AIRDROPS": {
-      "TITLE": "Earn $CITY tokens for your achievements",
-      "DESC": "Active players receive rewards for their in-game achievements at the end of each season"
+      "TITLE": {
+        "PART1": "Earn ",
+        "PART2": "$CITY ",
+        "PART3": "tokens for your achievements"
+      },
+      "DESC": "Active players receive rewards for their achievements and successes in the game"
     },
     "AIRDROPS.TOKEN": "$CITY",
     "BUTTON.BACK": "Back",
