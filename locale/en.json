@@ -6,7 +6,9 @@
     "BACK": "Back",
     "SKIP": "Skip",
     "DAY": "Day",
-    "NUMBER_FORMAT": "{{value, number}}"
+    "COMING.SOON": "Coming soon",
+    "NUMBER_FORMAT": "{{value, number}}",
+    "DATE_FORMAT": "{{date, datetime}}"
   },
   "NAVBAR": {
     "FRIENDS": "Friends",
@@ -54,6 +56,11 @@
     "LOADER.POPULATE.HOUSES": "Settling residents into houses…",
     "LOADER.PREPARE.LANDSCAPES": "Preparing beautiful landscapes…",
     "LOADER.POLISH.COINS": "Polishing the coins to a shine…"
+  },
+  "REFERRALS.INACTIVE.POPUP": {
+    "TITLE": "Start receiving reward for your friends",
+    "DESCRIPTION": "You will start receiving rewards as soon as your friends join the game and create their own cities",
+    "BUTTON": "View friends list"
   },
   "START": {
     "SCREEN": {
@@ -251,8 +258,8 @@
     "LABEL.THIRD.LEVEL.FRIENDS": "Friends of the 3rd circle",
     "LABEL.COLLECTABLE.INCOME": "Can collect",
     "BUTTON.COLLECT.INCOME": "Collect income",
-    "LABEL.FRIENDS.LIST": "Friend list",
-    "LABEL.FRIENDS.COUNT": "N friends"
+    "LABEL.FRIENDS.COUNT": "N friends",
+    "COLLECTED": "Income collected"
   },
   "REFERRAL.INCOME.SCREEN": {
     "SCREEN": {
@@ -294,7 +301,8 @@
     "BUTTON.FOLLOW": "Follow",
     "BUTTON.WATCH": "Watch video",
     "BUTTON.INVITE": "Invite friends",
-    "BUTTON.CHECK.COMPLETION": "Check completion"
+    "BUTTON.CHECK.COMPLETION": "Check completion",
+    "COMPLETED": "Mission complete"
   },
   "DAILY.BONUSES.SCREEN": {
     "SCREEN": {
@@ -356,7 +364,8 @@
       "DESC": "Each click in the treasury is doubled for 60 seconds. Up to 3 uses per day"
     },
     "BOOSTER.TURBO.CLICK.FREE": "Free",
-    "BOOSTER.ACTIVE": "Active"
+    "BOOSTER.ACTIVE": "Active",
+    "BOUGHT": "The booster is purchased"
   },
   "BOOSTERS.PURCHASE.SCREEN": {
     "SECTION": {
@@ -371,7 +380,8 @@
     "UPGRADE": "Upgrade",
     "TAP.BOT": "Tap Bot",
     "TAP.BOT.DESCRIPTION": "Automatic assistant that collects taxes in your absence",
-    "COMING.SOON": "Coming Soon"
+    "COMING.SOON": "Coming Soon",
+    "BOUGHT": "The upgrade is purchased"
   },
   "RANKING.MAIN.SCREEN": {
     "PARTICIPANTS.RATING": "Participant Rating"
@@ -386,7 +396,13 @@
   "PROFILE.SCREEN": {
     "HOLDER.LEVEL": "Holder's Power {{N}}/10",
     "ACCOUNT.AGE": "Account Age",
-    "ACCOUNT.AGE.DETAIL": "{{N}} months {{N}} days {{N}} hours",
+    "ACCOUNT.AGE.MONTH_one": "{{count}} month ",
+    "ACCOUNT.AGE.MONTH_other": "{{count}} months ",
+    "ACCOUNT.AGE.DAYS_one": "{{count}} day ",
+    "ACCOUNT.AGE.DAYS_other": "{{count}} days ",
+    "ACCOUNT.AGE.HOURS_one": "{{count}} hour",
+    "ACCOUNT.AGE.HOURS_other": "{{count}} hours",
+    "ACCOUNT.AGE.NEW": "Less than an hour",
     "RATING": {
       "TITLE": "Rating"
     },
@@ -409,7 +425,7 @@
     "VIBRATION": "Vibration",
     "APP.LANGUAGE": "App Language",
     "FEEDBACK": "Feedback",
-    "LICENSE.AGREEMENT": "License Agreement",
+    "LICENSE.AGREEMENT": "Terms of Use",
     "PRIVACY.POLICY": "Privacy Policy",
     "DELETE.ACCOUNT": "Delete Account"
   },
@@ -439,10 +455,8 @@
     "BUILD.OBJECTS": "Construction of objects"
   },
   "CITY.POPUP.SCREEN": {
-    "ABOUT.CITY": {
-      "TITLE": "About your city"
-    },
-    "ABOUT.CITY.DESCRIPTION": "In CITY Holder, you participate in creating a simulation of the perfect city. Build and upgrade buildings, providing residents with everything they need. Erect residential houses, entertainment, and industrial complexes. Manage resources efficiently, develop the economy, and attract new residents. Your task is to make the most successful simulation of the city of the future and attract as many residents as possible.",
+    "TITLE": "About your city",
+    "DESCRIPTION": "In CITY Holder, you participate in creating a simulation of the perfect city. Build and upgrade buildings, providing residents with everything they need. Erect residential houses, entertainment, and industrial complexes. Manage resources efficiently, develop the economy, and attract new residents. Your task is to make the most successful simulation of the city of the future and attract as many residents as possible.",
     "GOT.IT.BUTTON": "Got it!"
   },
   "CATEGORIES": {
@@ -466,5 +480,14 @@
       "TITLE": "Special buildings",
       "DESCRIPTION": "Special buildings that set your city apart from the rest and actively attract tourists and new residents"
     }
+  },
+  "FRIENDS.LIST.SCREEN": {
+    "TITLE": "Friends List",
+    "DESCRIPTION": "Active Friends list displays your friends who are already playing and building their cities. Your friends who have not yet logged in to the game and created a city are displayed in the No City list",
+    "ACTIVE.FRIENDS": "Active Friends",
+    "WITHOUT.CITY": "Without a City",
+    "NOT.CREATED.CITY": "Has not created their city yet",
+    "REFERRAL.CIRCLE": "Friends 1-3 circles: {{N}}",
+    "BUTTON.VIEW": "View friends list"
   }
 }

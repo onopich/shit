@@ -6,7 +6,9 @@
     "BACK": "Назад",
     "SKIP": "Пропустить",
     "DAY": "День",
-    "NUMBER_FORMAT": "{{value, number}}"
+    "COMING.SOON": "Скоро",
+    "NUMBER_FORMAT": "{{value, number}}",
+    "DATE_FORMAT": "{{date, datetime}}"
   },
   "NAVBAR": {
     "FRIENDS": "Друзья",
@@ -56,6 +58,11 @@
     "LOADER.POPULATE.HOUSES": "Заселяем жителей в дома…",
     "LOADER.PREPARE.LANDSCAPES": "Подготавливаем прекрасные пейзажи…",
     "LOADER.POLISH.COINS": "Полируем монетки до блеска…"
+  },
+  "REFERRALS.INACTIVE.POPUP": {
+    "TITLE": "Начните получать награды за ваших друзей",
+    "DESCRIPTION": "Вы начнете получать бонусы сразу, как только ваши друзья присоединятся к игре и создадут свой город",
+    "BUTTON": "Посмотреть список друзей"
   },
   "START": {
     "SCREEN": {
@@ -221,7 +228,7 @@
     },
     "SUBTITLE": "Не пропускайте свой шанс собирать монеты каждый день! Забирайте награды ежедневно, чтобы не сбрасывать счётчик наград",
     "BUTTON.COLLECT": "Собрать",
-    "REWARD.RECEIVED": "Награда получена!"
+    "REWARD.RECEIVED": "Бонус собран"
   },
   "TREASURY": {
     "LABEL.EARNED.COINS": "Заработано монет",
@@ -254,8 +261,8 @@
     "LABEL.THIRD.LEVEL.FRIENDS": "Друзья 3-го круга",
     "LABEL.COLLECTABLE.INCOME": "Можно собрать",
     "BUTTON.COLLECT.INCOME": "Собрать доход",
-    "LABEL.FRIENDS.LIST": "Список друзей",
-    "LABEL.FRIENDS.COUNT": "N друзей"
+    "LABEL.FRIENDS.COUNT": "N друзей",
+    "COLLECTED": "Доход собран"
   },
   "REFERRAL.INCOME.SCREEN": {
     "SCREEN": {
@@ -297,7 +304,8 @@
     "BUTTON.FOLLOW": "Перейти",
     "BUTTON.WATCH": "Смотреть видео",
     "BUTTON.INVITE": "Пригласить друзей",
-    "BUTTON.CHECK.COMPLETION": "Проверить выполнение"
+    "BUTTON.CHECK.COMPLETION": "Проверить выполнение",
+    "COMPLETED": "Миссия выполнена"
   },
   "DAILY.BONUSES.SCREEN": {
     "SCREEN": {
@@ -358,7 +366,8 @@
       "DESC": "Каждое нажатие в казне удваивается на 60 секунд. До 3 использований в день"
     },
     "BOOSTER.TURBO.CLICK.FREE": "Бесплатно",
-    "BOOSTER.ACTIVE": "Активен"
+    "BOOSTER.ACTIVE": "Активен",
+    "BOUGHT": "Бустер куплен"
   },
   "BOOSTERS.PURCHASE.SCREEN": {
     "SECTION": {
@@ -373,7 +382,8 @@
     "UPGRADE": "Улучшить",
     "TAP.BOT": "Тап-бот",
     "TAP.BOT.DESCRIPTION": "Автоматический помощник, который собирает налоги в ваше отсутствие",
-    "COMING.SOON": "Скоро"
+    "COMING.SOON": "Скоро",
+    "BOUGHT": "Улучшение куплено"
   },
   "RANKING.MAIN.SCREEN": {
     "SECTION": {
@@ -391,7 +401,16 @@
   "PROFILE.SCREEN": {
     "HOLDER.LEVEL": "Сила Холдера {{N}}/10",
     "ACCOUNT.AGE": "Возраст аккаунта",
-    "ACCOUNT.AGE.DETAIL": "{{N}} месяцев {{N}} дней {{N}} часов",
+    "ACCOUNT.AGE.MONTH_one": "{{count}} месяц ",
+    "ACCOUNT.AGE.MONTH_few": "{{count}} месяца ",
+    "ACCOUNT.AGE.MONTH_many": "{{count}} месяцев ",
+    "ACCOUNT.AGE.DAYS_one": "{{count}} день ",
+    "ACCOUNT.AGE.DAYS_few": "{{count}} дня ",
+    "ACCOUNT.AGE.DAYS_many": "{{count}} дней ",
+    "ACCOUNT.AGE.HOURS_one": "{{count}} час",
+    "ACCOUNT.AGE.HOURS_few": "{{count}} часа",
+    "ACCOUNT.AGE.HOURS_many": "{{count}} часов",
+    "ACCOUNT.AGE.NEW": "Меньше часа",
     "RATING": {
       "TITLE": "Рейтинг"
     },
@@ -414,7 +433,7 @@
     "VIBRATION": "Вибрация",
     "APP.LANGUAGE": "Язык приложения",
     "FEEDBACK": "Обратная связь",
-    "LICENSE.AGREEMENT": "Лицензионное соглашение",
+    "LICENSE.AGREEMENT": "Условия Использования",
     "PRIVACY.POLICY": "Политика конфиденциальности",
     "DELETE.ACCOUNT": "Удалить аккаунт"
   },
@@ -443,10 +462,8 @@
     "BUILD.OBJECTS": "Строительство объектов"
   },
   "CITY.POPUP.SCREEN": {
-    "ABOUT.CITY": {
-      "TITLE": "О вашем городе"
-    },
-    "ABOUT.CITY.DESCRIPTION": "В CITY Holder вы участвуете в создании симуляции идеального города. Стройте и улучшайте здания, обеспечивая жителей всем необходимым. Возводите жилые дома, развлекательные и промышленные комплексы. Эффективно управляйте ресурсами, развивайте экономику и привлекайте новых жителей. Ваша задача — сделать самую успешную симуляцию города будущего и привлечь как можно больше жителей.",
+    "TITLE": "О вашем городе",
+    "DESCRIPTION": "В CITY Holder вы участвуете в создании симуляции идеального города. Стройте и улучшайте здания, обеспечивая жителей всем необходимым. Возводите жилые дома, развлекательные и промышленные комплексы. Эффективно управляйте ресурсами, развивайте экономику и привлекайте новых жителей. Ваша задача — сделать самую успешную симуляцию города будущего и привлечь как можно больше жителей.",
     "GOT.IT.BUTTON": "Понятно!"
   },
   "CATEGORIES": {
@@ -470,5 +487,14 @@
       "TITLE": "Особые объекты",
       "DESCRIPTION": "Особые здания, которые выделяют ваш город среди остальных и активно привлекают туристов и новых жителей"
     }
+  },
+  "FRIENDS.LIST.SCREEN": {
+    "TITLE": "Список друзей",
+    "DESCRIPTION": "В списке «Активные друзья» вы видите тех, кто уже играет и строит свой город. Ваши друзья, которые еще не вошли в игру и не создали город, отображаются в списке «Без города»",
+    "ACTIVE.FRIENDS": "Активные друзья",
+    "WITHOUT.CITY": "Без города",
+    "NOT.CREATED.CITY": "Пока не создал(а) свой город",
+    "REFERRAL.CIRCLE": "Друзей 1-3 кругов: {{N}}",
+    "BUTTON.VIEW": "Посмотреть список друзей"
   }
 }
