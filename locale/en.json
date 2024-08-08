@@ -214,11 +214,9 @@
     "BUTTON.ACCEPT": "Accepted!"
   },
   "NOT.ENOUGH.ENERGY.PAGE": {
-    "CREEN": {
-      "TITLE": "You are tired of collecting taxes"
-    },
-    "SUBTITLE": "Your energy supply for today is depleted. Energy recovery will resume in <time-countdown>",
-    "BUTTON.UNDERSTOOD": "Got it!"
+    "TITLE": "You are tired of collecting taxes",
+    "SUBTITLE": "Your energy supply for today is depleted. Energy recovery will resume in ",
+    "BUTTON": "Got it!"
   },
   "DAILY.BONUS.PAGE": {
     "SCREEN": {
@@ -482,7 +480,7 @@
     }
   },
   "FRIENDS.LIST.SCREEN": {
-    "TITLE": "Friends List",
+    "TITLE": "Friends (1st Circle)",
     "DESCRIPTION": "Active Friends list displays your friends who are already playing and building their cities. Your friends who have not yet logged in to the game and created a city are displayed in the No City list",
     "ACTIVE.FRIENDS": "Active Friends",
     "WITHOUT.CITY": "Without a City",
