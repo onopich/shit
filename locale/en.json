@@ -187,6 +187,7 @@
       "TITLE": "Welcome back, Holder!"
     },
     "SUBTITLE": "While you were away, you earned",
+    "DESCRIPTION": "Your income accumulates for 4 hours while you are not in the game",
     "TAX.COLLECTION": "Including tax collection amounting to",
     "BUTTON.OK": "Excellent!",
     "REMINDER": "Don't forget to visit the \"Friends\" section and collect income"
