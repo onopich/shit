@@ -486,6 +486,9 @@
     "WITHOUT.CITY": "Without a City",
     "NOT.CREATED.CITY": "Has not created their city yet",
     "REFERRAL.CIRCLE": "Friends 1-3 circles: {{N}}",
-    "BUTTON.VIEW": "View friends list"
+    "BUTTON.VIEW": "View friends list",
+    "LEVEL.1": "Friends level 1: {{N}}",
+    "LEVEL.2": "lev 2: {{N}}",
+    "LEVEL.3": "lev 3: {{N}}"
   }
 }
